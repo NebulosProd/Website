@@ -1,0 +1,12 @@
+{
+  "port": "443",
+  "name": "Nebulos",
+  "description": "Nebulos is the only Discord bot you'll ever need. It is a multipurpose bot than can do almost anything you want.",
+  "invite": "https://discord.com/oauth2/authorize?scope=bot+applications.commands&client_id=1187057111578988646&permissions=37088600",
+  "support": "https://discord.gg/u4ZVUHHC2V",
+  "pfp": "/images/image.png",
+  "feature1": "Anti Spam, It can filter out spam and use the punishment you've selected before.",
+  "feature2": "Moderation, It has many moderation command with latest discord fetures like timeout.",
+  "feature3": "Anime, It contain anime commands where you can get information of chatacters, find images.",
+  "feature4": "Ticket, It is very easy to pull the ticket and close it. It has buttons to make more easy to use."
+}

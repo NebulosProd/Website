@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title><%= name %></title>
+  <meta name="title" content="<%= description %>">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="<%= pfp %>" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo"><h1 style="color:#FFFFFF;" ><%= name %></h1>
+      
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo"><h2><%= name %></h2>
+        
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="../" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="../#service" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="../#stat" class="navbar-link">Stats</a>
+          </li>
+
+          <li>
+            <a href="../#feature" class="navbar-link">Features</a>
+          </li>
+
+          <li>
+            <a href="../server" class="navbar-link">Server</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="btn-group">
+      
+
+        <a href="<%= invite %>" class="btn btn-primary">Invite Bot</a>
+      </div>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" aria-label="home" style="margin-bottom: -80px;">
+
+          <div class="hero-content">
+
+            <h1 style="text-align: center;" class="h1 hero-title">Privacy Policy</h1>
+
+          </div>
+      </section>
+
+
+      <section class="section promo" aria-label="promo">
+        <div class="container" id="service">
+            <div class="instruction-card bg-gray" style="margin-bottom: 30px;">
+
+                  <h2 class="h2 section-title">Introduction</h2>
+
+                  <p class="card-text">
+                    This <b>Privacy Policy</b> outlines how Nebulos ("<b>we</b>," "<b>us</b>," or "<b>our</b>") collects, uses, and protects your personal information. By using our Discord bot (Nebulos, 1187057111578988646)and visiting our website, you agree to the terms of this Privacy Policy.
+                  </p>
+
+              </div>
+          <ul class="grid-list">
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <h3 class="h3 card-title">Information We Collect</h3>
+
+                <p class="card-text">
+                    <b>Bot Usage Data</b>: We may collect data on how you interact with our Discord bot, including command usage, server information, and user interactions.</br>
+                    <b>Website Usage Data</b>: When you visit our website, we may collect information such as your IP address, browser type, and device information.</br>
+                    <b>Cookies</b>: We may use cookies to enhance your experience on our website. You can choose to disable cookies in your browser settings.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <h3 class="h3 card-title">How We Use Your Information</h3>
+
+                <p class="card-text">
+                    <b>Bot Data</b>: We use bot usage data to improve and optimize the performance of our Discord bot, as well as to provide support and address user inquiries.</br>
+                    <b>Website Data</b>: We use website usage data to analyze trends, administer the site, and gather demographic information for aggregate use.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <h3 class="h3 card-title">Data Sharing</h3>
+
+                <p class="card-text">
+                    We do not sell, trade, or otherwise transfer your personal information to third parties. However, we may share aggregated, non-personally identifiable information with third parties for statistical analysis.
+                </p>
+
+              </div>
+            </li>
+
+
+            <li>
+                <div class="promo-card bg-gray">
+  
+                  <h3 class="h3 card-title">Security Measures</h3>
+  
+                  <p class="card-text">
+                    We implement reasonable security measures to protect your personal information. However, no method of transmission over the internet or electronic storage is completely secure.
+                  </p>
+  
+                </div>
+              </li>
+
+
+              <li>
+                <div class="promo-card bg-gray">
+  
+                  <h3 class="h3 card-title">Your Choices</h3>
+  
+                  <p class="card-text">
+                    You can choose to disable (if cookies are collected) cookies in your browser settings. Additionally, you may opt out of certain data collection by not using our Discord bot or providing personal information on our website.
+                  </p>
+  
+                </div>
+              </li>
+
+
+              <li>
+                <div class="promo-card bg-gray">
+  
+                  <h3 class="h3 card-title">Changes to the Privacy Policy</h3>
+  
+                  <p class="card-text">
+                    We reserve the right to update and modify this Privacy Policy. Any changes will be posted on this page with an updated revision date.
+                  </p>
+  
+                </div>
+              </li>
+      
+          </ul>
+
+        </div>
+      </section>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+  
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright Nebulos 2024. All rights reserved.
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="../server" class="footer-bottom-link">Support</a>
+          </li>
+
+          <li>
+            <a href="../privacy" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="../terms" class="footer-bottom-link">Terms of Service</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+<!-- Github: diwasatreya -->
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon-link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
