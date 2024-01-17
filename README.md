@@ -6,7 +6,7 @@ This is the official sourcecode of the [Nebulos.pro](https://nebulos.pro) Websit
 Clone the repository
 
 ```bash
-git clone https://github.com/NebulosProd/Website/.git
+git clone https://github.com/NebulosProd/Website.git
 ```
 
 Go into the Repository
