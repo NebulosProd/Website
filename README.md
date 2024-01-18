@@ -1,6 +1,6 @@
 # Nebulos Website
 
-This is the official sourcecode of the [Nebulos.pro](https://nebulos.pro) Website. 
+This is the official sourcecode of the [Nebulos.pro](https://nebulos.pro) Website for the Nebulos Discord Bot
 ## Installation
 
 Clone the repository
