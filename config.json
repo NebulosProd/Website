@@ -1,5 +1,5 @@
 {
-  "port": "443",
+  "port": "8080",
   "name": "Nebulos",
   "description": "Nebulos is the only Discord bot you'll ever need. It is a multipurpose bot than can do almost anything you want.",
   "invite": "https://discord.com/oauth2/authorize?scope=bot+applications.commands&client_id=1187057111578988646&permissions=37088600",
